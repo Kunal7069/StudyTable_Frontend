@@ -1,5 +1,6 @@
 import { Button } from "../../ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export const PracticeSection = (): JSX.Element => {
   return (
@@ -22,9 +23,11 @@ export const PracticeSection = (): JSX.Element => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="inline-flex items-center"
         >
-          <Button className="h-[42px] md:h-[50px] px-[30px] py-2 bg-[#155dfc] hover:bg-[#0044ff] rounded-[5px] font-['Instrument_Sans',Helvetica] font-semibold text-[17px] md:text-[20px] text-white shadow-md transition-all duration-300 transform hover:scale-105">
-            Get your Entry
-          </Button>
+          <Link to="/signup">
+            <Button className="h-[42px] md:h-[50px] px-[30px] py-2 bg-[#155dfc] hover:bg-[#0044ff] rounded-[5px] font-['Instrument_Sans',Helvetica] font-semibold text-[17px] md:text-[20px] text-white shadow-md transition-all duration-300 transform hover:scale-105">
+              Apply for Admission 
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
