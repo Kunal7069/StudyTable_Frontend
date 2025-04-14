@@ -257,7 +257,7 @@ export const Dashboard = (): JSX.Element => {
               </div>
 
               {/* Upcoming Features Card */}
-              <Card className="w-[280px] md:w-[260px] lg:w-[280px] xl:w-[336px] bg-[#f1f1f1] rounded-[10px] border-none self-start md:h-[max(500px,calc(100vh-180px))] lg:h-[calc(100vh-140px)] xl:h-[calc(100vh-160px)] lg:-mt-14 xl:-mt-16 overflow-hidden">
+              <Card className="w-[280px] md:w-[260px] lg:w-[280px] xl:w-[336px] bg-[#f1f1f1] rounded-[10px] border-none self-start md:h-[max(500px,calc(100vh-180px))] lg:h-[calc(100vh-140px)] xl:h-[calc(100vh-160px)] mt-11 lg:mt-0 xl:mt-2 overflow-hidden">
                 <CardContent className="p-4 md:p-3 lg:p-4 xl:p-6 h-full relative">
                   <h2 className="font-semibold text-[#131313] text-xl md:text-lg lg:text-xl xl:text-2xl tracking-[0.90px] mb-6 md:mb-3 lg:mb-6 xl:mb-8 sticky top-0 bg-[#f1f1f1] z-10 pb-2">
                     Upcoming Features
