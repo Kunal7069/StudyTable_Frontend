@@ -126,7 +126,7 @@ export const OptimizeYourSection = (): JSX.Element => {
                 imageUrl="currency_rupee_circle.svg"
               />
               <SmallCard 
-                text="FREE Practice of 15 Years of Board Questions"
+                text="FREE practice for 15 Years of Board Questions."
                 imageUrl="school.svg"
               />
               <SmallCard 
@@ -134,7 +134,7 @@ export const OptimizeYourSection = (): JSX.Element => {
                 imageUrl="today.svg"
               />
               <SmallCard 
-                text="FREE Practice for 35 Years JEE/NEET Questions"
+                text="FREE practice for 35 Years of JEE/NEET Questions"
                 imageUrl="edit_square.svg"
               />
             </div>
