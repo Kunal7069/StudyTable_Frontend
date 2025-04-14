@@ -144,7 +144,7 @@ export const Dashboard = (): JSX.Element => {
           <p className="text-white text-center text-xl mb-4">
             Dashboard Access Limited
             <span className="text-gray-400 text-base mt-2 block">
-              The dashboard is optimized for larger screens
+              We support Laptop and tablet devices only
             </span>
           </p>
           <div className="w-16 h-0.5 bg-gradient-to-r from-transparent via-gray-500 to-transparent my-8" />
